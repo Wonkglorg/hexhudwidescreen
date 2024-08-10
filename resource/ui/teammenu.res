@@ -20,7 +20,7 @@
 		"xpos"										"0"
 		"ypos"										"2"
 		"zpos"										"2"
-		"wide"										"p0.4499" //wow
+		"wide"										"p0.3350" //Widescreen Fix: original p0.4499
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
