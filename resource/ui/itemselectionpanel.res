@@ -123,7 +123,7 @@
 		"xpos"										"137"
 		"ypos"										"0"
 		"zpos"										"-1"
-		"wide"										"785"       //Widescreen fix: original 700
+		"wide"										"p0.685"       //Widescreen fix: original 700
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -153,7 +153,7 @@
 			"xpos"									"rs1-80"
 			"ypos"									"cs-0.5-30"
 			"zpos"									"-1"
-			"wide"									"240"    //Widescreen fix: original 160
+			"wide"									"p0.3"    //Widescreen fix: original 160
 			"tall"									"360"
 			"visible"								"1"
 			"enabled"								"1"
@@ -169,7 +169,7 @@
 			"xpos"									"rs1"        //Widescreen fix: original rs1-55
 			"ypos"									"cs-0.5-30"
 			"zpos"									"-1"
-			"wide"									"150"       //Widescreen fix: original 50
+			"wide"									"p0.125"       //Widescreen fix: original 50
 			"tall"									"320"
 			"visible"								"1"
 			"enabled"								"1"
