@@ -93,6 +93,109 @@
 	}
 
 	//===================================================================================
+        // Rank / Badge
+        //===================================================================================
+
+        //visual casual or comp badge
+        //!!!! this thing sucks, enable background color override to see the box, basically it is a big empty box containing the badge, and you gotta size the box to hope and get the badge inside in the correct spot, it is wayyy larger than the badge so loads of trial and error
+        "RankModelPanel"
+        {
+        //the name of the menu it gets controlled by
+        	"ControlName"	                            "CPvPRankPanel"
+        	"fieldName"		                            "RankModelPanel"
+        	"xpos"			                            "c-625"
+        	"ypos"			                            "c-790"
+
+        	"zpos"			                            "5"
+        	"wide"			                            "1250"
+        	"tall"			                            "1250"
+        	//"bgcolor_override"	                    "46 43 42 255"
+
+        	"proportionaltoparent"	                    "0"
+        	"mouseinputenabled"	                        "1"
+
+        	"matchgroup"	                            "MatchGroup_Casual_12v12"
+
+        	"show_progress"	                            "1"
+        }
+
+        //the settings button to switch between casual and comp
+        "CycleRankTypeButton"
+        {
+        	"ControlName"	                            "CExImageButton"
+        	"fieldName"		                            "CycleRankTypeButton"
+        	"xpos"			                            "0"
+        	"ypos"			                            "25"
+        	"zpos"			                            "7"
+        	"wide"			                            "11"
+        	"tall"			                            "11"
+        	"autoResize"	                            "0"
+        	"pinCorner"		                            "3"
+        	"visible"		                            "1"
+        	"enabled"		                            "1"
+        	"tabPosition"	                            "0"
+        	"textinsetx"	                            "25"
+        	"labelText"		                            ""
+        	"use_proportional_insets"                   "1"
+        	"font"			                            "HudFontSmallBold"
+        	"command"		                            "open_rank_type_menu"
+        	"textAlignment"	                            "west"
+        	"dulltext"		                            "0"
+        	"brighttext"	                            "0"
+        	"default"		                            "1"
+        	"sound_depressed"	                        "UI/buttonclick.wav"
+        	"sound_released"	                        "vo/null.mp3"
+        	"actionsignallevel"                         "1"
+        	"proportionaltoparent"	                    "1"
+
+        	"sound_depressed"	                        "UI/buttonclick.wav"
+        	"sound_released"	                        "UI/buttonclickrelease.wav"
+        	"paintbackground"	                        "1"
+        	"paintborder"		                        "0"
+
+        	"image_drawcolor"	                        "235 226 202 255"
+
+        	"SubImage"
+        	{
+        	    "ControlName"	                        "ImagePanel"
+        	    "fieldName"		                        "SubImage"
+        	    "xpos"			                        "cs-0.5"
+        	    "ypos"			                        "cs-0.5"
+        	    "zpos"			                        "1"
+        	    "wide"			                        "f2"
+        	    "tall"			                        "f2"
+        	    "visible"		                        "1"
+        	    "enabled"		                        "1"
+        	    "scaleImage"	                        "1"
+        	    "image"			                        "glyph_options"
+
+        		"proportionaltoparent"	                "1"
+        		"mouseinputenabled"	                    "0"
+        		"keyboardinputenabled"                  "0"
+        	}
+        }
+
+        		//panel that shows what rank level and tier you are
+        //		"RankPanel"
+        //	  	{
+        //			"ControlName"	"CPvPRankPanel"
+        //			"fieldName"		"RankPanel"
+        //			"xpos"			"20"
+        //			"ypos"			"15"
+        //			"zpos"			"0"
+        //			"wide"			"350"
+        //			"tall"			"60"
+        //			"visible"		"0"
+        //			"proportionaltoparent"	"1"
+        //			"mouseinputenabled"	"0"
+        //
+        //			"matchgroup"	"MatchGroup_Casual_12v12"
+        //		//	"bgcolor_override"	"46 43 42 255"
+        //		//enables the badge to render
+        //			"show_model"	"0"
+        //			"show_type"		"1"
+
+	//===================================================================================
 	// BACKGROUNDS
 	//===================================================================================
 	"MainMenuBG"

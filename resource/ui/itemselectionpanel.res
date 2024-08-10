@@ -48,7 +48,6 @@
 
 			"deferred_description"					"1"
 			"deferred_icon"							"1"
-
 			"ItemBackground"
 			{
 				"ControlName"						"EditablePanel"
@@ -116,7 +115,7 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-	"Hide_Panels"									// 720p screws everything so fuck it, ghetto solution wins
+	"Hide_Panels"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Hide_Panels"
