@@ -211,7 +211,7 @@
 		"enabled"									"1"
 		"painbackground"							"1"
 		"painbackgroundtype"						"0"
-		"bgcolor_override"							"Main_Menu_Background"
+		//"bgcolor_override"							"Main_Menu_Background"
 	}
 	"PauseMenuBG"
 	{
