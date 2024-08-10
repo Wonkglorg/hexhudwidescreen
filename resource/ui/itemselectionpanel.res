@@ -123,7 +123,7 @@
 		"xpos"										"137"
 		"ypos"										"0"
 		"zpos"										"-1"
-		"wide"										"700"
+		"wide"										"785"       //Widescreen fix: original 700
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -153,7 +153,7 @@
 			"xpos"									"rs1-80"
 			"ypos"									"cs-0.5-30"
 			"zpos"									"-1"
-			"wide"									"160"
+			"wide"									"240"    //Widescreen fix: original 160
 			"tall"									"360"
 			"visible"								"1"
 			"enabled"								"1"
@@ -166,10 +166,10 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"Right_Small"
-			"xpos"									"rs1-55"
+			"xpos"									"rs1"        //Widescreen fix: original rs1-55
 			"ypos"									"cs-0.5-30"
 			"zpos"									"-1"
-			"wide"									"50"
+			"wide"									"150"       //Widescreen fix: original 50
 			"tall"									"320"
 			"visible"								"1"
 			"enabled"								"1"
